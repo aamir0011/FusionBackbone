@@ -1,0 +1,13 @@
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.swp
+.DS_Store
+# Large datasets/checkpoints
+datasets/
+IRENE/data/
+IRENE/experiments/
+experiments/*
+!experiments/results_summary.csv
