@@ -1,0 +1,5 @@
+run_name,dataset,device,amp,epochs,batch_size,train_samples,val_samples,best_val_auc,best_epoch,checkpoint
+vqarad_run1,vqa-rad,cuda:0,true,3,16,1000,200,0.8121,1,experiments/irene_runs/vqarad_run1/best_model.pth
+pathvqa_run1,path-vqa,cuda:0,true,2,12,3000,600,0.3757,1,experiments/irene_runs/pathvqa_run1/best_model.pth
+mimic_run1,mimic-cxr-dataset,cuda:0,true,2,12,8000,2000,0.6284,1,experiments/irene_runs/mimic_run1/best_model.pth
+rexgradient_run1,ReXGradient-160K,cuda:0,true,2,12,12000,2000,0.7785,2,experiments/irene_runs/rexgradient_run1/best_model.pth
